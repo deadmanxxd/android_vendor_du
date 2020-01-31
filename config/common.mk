@@ -106,6 +106,10 @@ PRODUCT_PACKAGES += \
 # Packages
 include vendor/du/config/packages.mk
 
+# TouchGestures
+PRODUCT_PACKAGES += \
+    TouchGestures
+
 # Branding
 include vendor/du/config/branding.mk
 
